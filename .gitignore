@@ -1,0 +1,50 @@
+/target
+**/*.rs.bk
+
+# === Rust build artifacts ===
+# Keep Cargo.lock for binaries (recommended) so don't ignore it.
+# Uncomment below if this is a library crate and you intentionally want to skip Cargo.lock
+# Cargo.lock
+
+# Incremental compilation cache
+target/**/incremental/
+
+# Profiling data
+*.profraw
+
+# === IDE/editor caches ===
+.idea/
+*.iml
+.vs/
+
+# VS Code specific
+# Keep .vscode/settings.json (project formatting) but ignore other machine-specific files
+.vscode/*.code-snippets
+.vscode/*.db
+.vscode/*.log
+.vscode/tasks.json
+.vscode/launch.json
+
+# === OS junk ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Logs & temp ===
+*.log
+*.tmp
+*.swp
+*.swo
+
+# === Node (if you add front-end tooling later) ===
+node_modules/
+dist/
+build/
+
+# === Misc caches ===
+/.cache/
+coverage/
+
+# Prevent committing secrets (.env) but allow an example file
+.env
+!.env.example
