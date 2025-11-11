@@ -13,5 +13,14 @@ pub fn run() {
         "{name} likes to play {activity}",
         name = "Fuad",
         activity = "Football"
-    )
+    );
+
+    // Placeholder traits
+    println!("Binary: {:b}, Hex: {:x}, Octal: {:o}", 10, 10, 10);
+
+    // Debug trait
+    println!("{:?}", (12, true, "hello"));
+
+    // Mathmatical operations
+    println!("10 + 10 = {}", 10 + 10);
 }
