@@ -11,11 +11,11 @@
 */
 
 pub fn run() {
-    let x = 42; // i32 by default
+    let _x = 42; // i32 by default
 
-    let y = 3.14; // f64 by default
+    let _y = 3.14; // f64 by default
 
-    let y: f64 = 1.2345678901234567890; // f64 explicitly
+    let _y: f64 = 1.2345678901234567890; // f64 explicitly
 
     // Find max size
     println!("Max size of i8: {}", std::i8::MAX);

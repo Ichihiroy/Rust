@@ -8,7 +8,10 @@ pub fn run() {
     let name = "Yunis";
     let mut age = 19;
 
+    println!("Age: {}", age);
+
     age = 20;
+    println!("New Age: {}", age);
 
     println!("Hello, I am {} and I am {} years old", name, age);
 
@@ -17,5 +20,5 @@ pub fn run() {
     println!("ID: {}", ID);
 
     // Assign multiple variables
-    let (my_name, my_age) = ("Yunis", 19);
+    let (_my_name, _my_age) = ("Yunis", 19);
 }

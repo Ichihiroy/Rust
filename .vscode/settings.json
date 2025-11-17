@@ -14,5 +14,6 @@
   },
 
   // Optional: enable range formatting support for rustfmt
-  "rust-analyzer.rustfmt.rangeFormatting.enable": true
+  "rust-analyzer.rustfmt.rangeFormatting.enable": true,
+  "git.ignoreLimitWarning": true
 }

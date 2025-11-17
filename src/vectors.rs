@@ -17,9 +17,14 @@ pub fn run() {
         println!("Element: {}", element);
     }
 
+    // Iterating and mutating over the vector
+    let mut vec2 = vec![1, 2, 3, 4, 5];
+    for el in vec2.iter_mut() {
+        *el *= 2;
+    }
+
     // Slicing the vector
-    let slice = &vec[1..4];
-    println!("Slice: {:?}", slice);
+    println!("Slice: {:?}", &vec[1..4]);
 
     // Mutable vector
     let mut mut_vec: Vec<i32> = vec![10, 20, 30];
